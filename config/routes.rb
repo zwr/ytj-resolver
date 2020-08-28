@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'find', to: 'ytj/index'
+  get 'find/:ytunnus', to: 'ytj#index'
 end
